@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,3 +16,8 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+// If you want to measure performance in your app, uncomment the following line. 
+// You can pass in any function to handle these values (for example, send to an analytics endpoint).
+// Learn more: https://bit.ly/CRA-vitals
+// reportWebVitals(console.log);
